@@ -9,7 +9,7 @@ tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz
 RIGHT JOIN sorgusunu yazınız.
 
 SELECT payment_id, first_name, last_name FROM customer
-LEFT JOIN payment ON payment.payment_id = customer.customer_id;
+RIGHT JOIN payment ON payment.payment_id = customer.customer_id;
 
 --customer tablosu ile rental tablosunda bulunan rental_id ile customer 
 tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz 
